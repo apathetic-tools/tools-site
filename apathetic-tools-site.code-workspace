@@ -1,0 +1,8 @@
+// apathetic-tools-site.code-workspace
+{
+	"folders": [
+		{
+			"path": ".",
+		},
+	],
+}

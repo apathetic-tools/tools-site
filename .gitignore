@@ -1,0 +1,69 @@
+# .gitignore
+
+# Distribution / packaging
+build/
+dist/
+tmp-dist/
+tmp/
+tmp-*/
+out/
+coverage/
+*.tmp
+bin/
+
+# Prevent recursive test discovery inside build outputs
+!tests/              
+tmp-dist/tests/
+dist/tests/
+
+# Unit test / coverage reports
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+cover/
+
+# Environments
+.env
+.envrc
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.env.production
+!.env.example
+
+# IDE environments
+# encourage VSCode usage
+.vscode/* 
+.idea/
+.vimrc
+.nanorc
+.stackblitzrc
+sandbox.config.json
+
+# Add local workspace settings (commit these)
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+!.vscode/settings.json
+!apathetic-tools-site.code-workspace
+
+# System Files
+.DS_Store
+ific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*:Zone.Identifier
+
+# Cached requests / tool caches
+.cache
+
+# Fonts / other generated assets
+**/_fonts/brand/
+
+# Github configuration
+!.github/
